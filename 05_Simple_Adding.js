@@ -7,7 +7,7 @@ function SimpleAdding(num) {
   newNum = num;
 	for (var i = 1; i < num; i++) {
 	  if (num > 1000) {
-	  	return "error";
+	  	return 'error';
 	    } else {
 	    	newNum += i;
 	    }
