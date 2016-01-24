@@ -9,7 +9,8 @@ function LongestWord(sen) {
 		if (array[i].length > result.length) {
 			result = array[i];
 		} 
-   } return result;
+	} 
+	return result;
 }
    
 // keep this function call here 
