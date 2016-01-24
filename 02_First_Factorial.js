@@ -16,5 +16,5 @@ function FirstFactorial(num) {
 // to see how to enter arguments in JavaScript scroll down
 FirstFactorial(readline()); 
 
-// Input = 4Output = 24
-// Input = 8Output = 40320
+// Input = 4 Output = 24
+// Input = 8 Output = 40320
