@@ -4,13 +4,13 @@
 
 // for-loop
 function LongestWord(sen) {
-	var replacement = sen.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()]/g,''), array = replacement.split(" "), result = '';
-	for (var i = 0; i < array.length; i++) {
-		if (array[i].length > result.length) {
-			result = array[i];
-		} 
-	} 
-	return result;
+  var replacement = sen.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()]/g,''), array = replacement.split(" "), result = '';
+  for (var i = 0; i < array.length; i++) {
+    if (array[i].length > result.length) {
+      result = array[i];
+    } 
+  } 
+  return result;
 }
    
 // keep this function call here 

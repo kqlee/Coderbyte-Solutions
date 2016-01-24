@@ -4,11 +4,11 @@
 
 // for-loop
 function FirstFactorial(num) {
-	var result = 1;
-	for (var i = 1; i <= num; i++) {
-		result *= i;
-	}
-	return result;
+  var result = 1;
+  for (var i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
 }
    
 // keep this function call here 

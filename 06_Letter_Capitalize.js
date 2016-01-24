@@ -4,11 +4,11 @@
 
 // for-each method
 function LetterCapitalize(str) {
-	var arr = str.split(" ");
-	arr.forEach(function (element, index, array) {
-		arr[index] = arr[index].charAt(0).toUpperCase() + arr[index].slice(1);
-	});
-	return arr.join(" ");
+  var arr = str.split(" ");
+  arr.forEach(function (element, index, array) {
+    arr[index] = arr[index].charAt(0).toUpperCase() + arr[index].slice(1);
+  });
+  return arr.join(" ");
 }
 
 // keep this function call here 
